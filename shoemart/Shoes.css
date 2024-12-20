@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+h1{
+    color:rgb(21, 199, 21);
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p2{
+    font-style: oblique;
+    text-decoration: underline;
+    font-size: 50px;
+    margin-bottom: 600px;
+    text-align: center;
+    color: green;
+}
+p{
+    color: gold;
+}
+.image{
+    width: 30%;
+    height: 400px;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.footer{
+    background-color: rgb(107, 94, 94);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    font-size: 900;
+    font-weight: bold;
+    background-color: aquamarine;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+.a2{
+    width: 120px;
+    height: 25px;
+        color:red;
+    text-decoration: none;
+    border: 2px solid rgb(82, 196, 92);
+    background-color: black;
+    border-radius: 30px;
+}
+.a{  
+    text-align: center;
+    color: blueviolet;
+    text-decoration:none;
+    width: 70px;
+    border: 2px solid rgb(235, 142, 142);
+
+}
+img{
+    border-radius: 20px;
+    margin-top: 70px;
+    width: 200px;
+    height: 200px;
+}
+.text{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.photo{
+    width: 100%;
+    height: 900px;
+    margin-top: 30px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/hoka-zinal-13085-1643565794.jpg);
+    background-size: cover;
+}
