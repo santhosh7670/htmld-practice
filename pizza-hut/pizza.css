@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: rgb(247, 239, 239);
+    font-size: 30px;
+}
+a:hover{
+    color: goldenrod;
+    scale: 1.2;
+}
+.img1{
+    width: 150px;
+    height: 45px;
+}
+.body{
+    background-image: url(https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+
+}
+.img2{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: bisque;
+    margin-left: 100px;
+}
+.but1{
+    width:150px;
+    height: 30px;
+    background-color: yellowgreen;
+    color: azure;
+    border: none;
+    border-radius: 10px;
+}
+.but1:hover{
+    background-color: antiquewhite;
+    color: rgb(78, 73, 73);
+    scale: 1.1;
+}
+.p1{
+    color: gold;
+    font-style: italic;
+    font-size: 50px;
+}
+.child1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(156, 147, 147);
+    width: 100%;
+    height: 400px;
+}
+.text2{
+    text-align: center;
+    width: 50%;
+}
+h4{
+    color: rgb(228, 55, 55);
+    font-size: 40px;
+}
+span{
+    color: rgb(16, 20, 16);
+    font-family:monospace;
+}
+.child2{
+    background-color: rgb(133, 133, 185);
+    width: 100%;
+    height: 500px;
+
+}
+.p4{
+    text-align: center;
+    font-size: 50px;
+    color: burlywood;
+}
+.p5{
+    text-align: center;
+    color: darkgreen;
+}
+.img4{
+    width: 200px;
+    height: 200px;
+}
+.menu{
+display:flex;
+width: 100%;
+align-items: center;
+justify-content: space-between;
+margin-top: 10px;
+background-color: rgb(124, 151, 83);
+}
+.text4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+}
+.p6{
+font-size: 30px;
+color: rgb(218, 218, 207);
+}
+.but2{
+    width: 60px;
+    height: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: brown;
+    margin-left: 60px;
+
+}
+.but2:hover{
+    scale: 1.2;
+    background-color: black;
+    color: whitesmoke;
+}
+.child3{
+    display: flex;
+}

@@ -1,0 +1,26 @@
+.google{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-top: 40px solid red;
+  border-right: 40px solid yellow;
+  border-left: 40px solid blue;
+  border-bottom: 40px solid green;
+}
+.google::before{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  background: yellow;
+  top: 140px;
+  left: 160px;
+}
+.google::after{
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 150px;
+  border-top: 150px solid transparent;
+  border-right: 150px solid #fff;
+}

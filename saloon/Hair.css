@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+}
+.img1{
+    width: 130px;
+    height: 60px;
+    margin-right: 20px;
+}
+.image1{
+    margin-left: 20px ;
+}
+.nav{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(24, 24, 23);
+    font-size: 17px;
+    font-weight: bold;
+}
+a:hover{
+    color: goldenrod;
+}
+nav{
+    background: rgb(223, 212, 205);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://www.shutterstock.com/image-photo/barber-making-hairstyle-confident-bearded-260nw-1975664201.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.cointer{
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+h4{
+    color: rgb(215, 233, 115);
+}
+h1{
+    color: white;
+    font-size: 30px;
+}
+p{
+    color: rgb(193, 197, 197);
+}
+button{
+    width: 150px;
+    height: 50px;
+    color: rgb(216, 216, 165);
+    border: 3px solid rgb(236, 203, 17);
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+}
+span{
+    text-decoration: underline;
+}
+h5{
+    color: white;
+}
+section{
+    width: 80%;
+    height: 600px;
+    display: grid;
+    background-color: white;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 120px;
+}
+h2{
+    background: white;
+    text-align: center;
+    width: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-left: 120px;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    width: 80%;
+    height: 300px;
+    margin-left: 120px;
+    background: rgb(160, 160, 204);
+}
+#h2{
+    background: rgb(160, 160, 204); 
+    text-align: center;
+    width: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-left: 120px;
+}
+.image3{
+    margin-top: 30px;
+}
+.img3{
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+}
+h3,h6{
+    text-align: center;
+}
+h3{
+    color: rgb(231, 138, 138);
+    font-size: 20px;
+}
+h6{
+    color: rgb(110, 102, 102);
+    font-size: 15px;
+}
